@@ -1,0 +1,44 @@
+body {
+	color: #EEEEEE;
+	background-color: #3F484A;
+	font-family: "DejaVu Sans Mono", "FreeMono", sans-serif;
+	line-height: 1.6em;
+}
+
+a, a:link {
+	color: #8AE234;
+}
+a:visited {
+	color: #E1CA03;
+}
+a:hover, a:active, a:focus {
+	color: #719ECD;
+}
+
+code {
+	font-family: inherit;
+	font-size: 1em;
+	background-color: #2F3136;
+	border: 1px solid #202225;
+	border-radius: 6px;
+	padding: 0.2em;
+}
+
+.click2copy code {
+	cursor: pointer;
+}
+
+#links {
+	list-style: none;
+}
+#links li {
+	margin: 0.6em 0;
+}
+#links a {
+	text-decoration: none;
+}
+#links img {
+	height: 1.2em;
+	vertical-align: top;
+}
+
