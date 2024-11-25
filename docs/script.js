@@ -2,7 +2,7 @@
 
 document.addEventListener("mouseover", function() {
 	if(event.target.nodeName.toLowerCase() == "code") {
-		event.target.title = "Click to copy";
+		event.target.title = "Click to copy username";
 	}
 });
 

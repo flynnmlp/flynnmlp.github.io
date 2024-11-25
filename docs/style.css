@@ -1,18 +1,20 @@
 body {
-	color: #EEEEEE;
-	background-color: #3F484A;
+	color: #eee;
+	background-color: #000;
 	font-family: "DejaVu Sans Mono", "FreeMono", sans-serif;
 	line-height: 1.6em;
+	max-width: 800px;
+	margin: auto;
 }
 
 a, a:link {
-	color: #8AE234;
+	color: #B2EDE6;
 }
 a:visited {
-	color: #E1CA03;
+	color: #29b8a6;
 }
 a:hover, a:active, a:focus {
-	color: #719ECD;
+	color: #D5974C;
 }
 
 code {
@@ -31,11 +33,23 @@ code {
 #links {
 	list-style: none;
 }
-#links li {
-	margin: 0.6em 0;
+#links dt, #links dd {
+	margin: -1px 0 0;
+	border: 1px solid #0FF;
+}
+#links dt {
+	font-size: 1.2em;
+	padding: 1rem 0.6rem;
+}
+#links dd {
+	padding: 0.6rem;
+	font-size: 1.2em;
+	margin-left: 5em;
+	margin-bottom: 2em;
 }
 #links a {
 	text-decoration: none;
+	padding: 0.5em 0;
 }
 #links img {
 	height: 1.2em;
