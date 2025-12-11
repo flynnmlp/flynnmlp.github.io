@@ -32,18 +32,22 @@ body {
 	flex: 1;
 	margin: 0;
 	padding: 0;
+	padding-right: 4px;
 	list-style: none;
 }
 
-#results a {
+#results li {
+	margin: 8px 4px;
 	font-size: 1.2em;
+}
+
+#results a {
 	display: block;
 	text-decoration: none;
 	padding: 0.2em 0.5em;
 	color: black;
 	border: 1px solid #999;
 	border-radius: 4px;
-	margin: 8px 4px;
 	box-shadow: 3px 1px 1px black;
 	scrollbar-gutter: stable;
 }

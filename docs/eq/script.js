@@ -141,6 +141,21 @@ function filterLocations() {
     if(location.label.toLowerCase().includes(searchText))
       results.appendChild(location.element);
   }
+  
+  let li = document.createElement("li");
+  if(searchText) {
+    li.textContent = `${results.childElementCount} result(s) `;
+    let button = li.appendChild(document.createElement("button"));
+    button.textContent = "Clear";
+    button.addEventListener("click", e => {
+      entry.value = "";
+      filterLocations();
+    });
+  } else {
+    li.textContent = `${results.childElementCount} locations`;
+  }
+  
+  results.insertBefore(li, results.firstChild);
 }
 
 addEventListener("load", () => {
