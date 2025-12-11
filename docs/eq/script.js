@@ -1,12 +1,16 @@
 "use strict";
+// ex:ts=2:et:
 
 // API url: https://derpibooru.org/api/v1/json/images/2743903
-const imageSource = "https://derpicdn.net/img/view/2021/11/13/2743903.png";
-const imageSize = [4500, 2257];
+var imageSource = "https://derpicdn.net/img/view/2021/11/13/2743903.png";
+var imageSize = [4500, 2257];
 
-const bounds = [[0, 0], imageSize.reverse()];
+var bounds = [[0, 0], [imageSize[1], imageSize[0]]];
 
 var map;
+var entry;
+var results;
+var locations;
 var permalinkTimer;
 
 function ll2xy(latlng) {
@@ -20,17 +24,32 @@ function xy2ll(point) {
   return map.unproject(p, 0);
 }
 
+function getLink(values, searchBase) {
+  let params = new URLSearchParams(searchBase || location.search);
+  for(let key in values) {
+    params.set(key, values[key]);
+  }
+  
+  let a = document.createElement("a");
+  a.href = location.href;
+  a.search = params;
+  return a.href;
+}
+
 function onClick(event) {
   let pixel = ll2xy(event.latlng);
   
-  let params = new URLSearchParams(location.search);
-  params.set("x", pixel.x);
-  params.set("y", pixel.y);
-  params.set("z", 2);
+  if(pixel.x < 0 || pixel.y < 0 || pixel.x > imageSize[0] || pixel.y > imageSize[1])
+    return;
+  
+  let href = getLink({
+    x: pixel.x,
+    y: pixel.y,
+    z: 2,
+  });
   
   let link = document.createElement("a");
-  link.href = location.href;
-  link.search = params;
+  link.href = href;
   link.text = pixel.x + ", " + pixel.y;
   
   map.openPopup(link, event.latlng);
@@ -44,16 +63,84 @@ function onMove(event) {
 function updatePermalink() {
   let pixel = ll2xy(map.getCenter());
   
-  let params = new URLSearchParams(location.search);
-  params.set("x", pixel.x);
-  params.set("y", pixel.y);
-  params.set("z", map.getZoom());
+  if(isNaN(map.getZoom())) {
+    debugger;
+  }
   
-  let a = document.createElement("a");
-  a.href = location.href;
-  a.search = params;
+  let href = getLink({
+    x: pixel.x,
+    y: pixel.y,
+    z: map.getZoom(),
+  });
   
-  history.replaceState(a.href, null, a.href);
+  history.replaceState(href, null, href);
+}
+
+class Location {
+  constructor(item) {
+    this.sourceElement = item;
+    
+    this.x = +item.getAttribute("x");
+    this.y = +item.getAttribute("y");
+    this.w = +item.getAttribute("width");
+    this.h = +item.getAttribute("height");
+    this.label = item.getAttribute("inkscape:label");
+    
+    this.element = document.createElement("li");
+    this.link = this.element.appendChild(document.createElement("a"));
+    this.link.textContent = this.label;
+    this.link.href = getLink({
+      x: this.x + this.w / 2,
+      y: this.y + this.h / 2,
+      z: 2,
+    });
+    
+    this.link.addEventListener("click", e => this.onClick(e));
+  }
+  
+  onClick(event) {
+    map.fitBounds(L.latLngBounds(
+      xy2ll([this.x, this.y]),
+      xy2ll([this.x + this.w, this.y + this.h]),
+    ), {maxZoom: 1.5});
+    
+    event.preventDefault();
+    return false;
+  }
+}
+
+async function loadItems() {
+  const response = await fetch("locations.svg");
+  if (!response.ok)
+      throw response;
+  
+  const xmlText = await response.text();
+  const parser = new DOMParser();
+  const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+  
+  locations = [];
+  for(let item of xmlDoc.getElementById("items").children) {
+    if(item.nodeName != "rect")
+      continue;
+    
+    locations.push(new Location(item));
+  }
+  
+  locations.sort((a, b) => a.label.localeCompare(b.label));
+  
+  entry = document.getElementById("entry");
+  entry.addEventListener("input", filterLocations);
+  filterLocations();
+}
+
+function filterLocations() {
+  let searchText = entry.value.toLowerCase();
+  results.innerHTML = "";
+  
+  for(let location of locations) {
+    if(location.label.toLowerCase().includes(searchText))
+      results.appendChild(location.element);
+  }
 }
 
 addEventListener("load", () => {
@@ -63,7 +150,12 @@ addEventListener("load", () => {
     zoomDelta: 1,
     minZoom: -3,
     maxZoom: 3,
+    maxBoundsViscosity: 1,
   });
+  map.setMaxBounds([
+    xy2ll({x: 0, y: 0}),
+    xy2ll({x: imageSize[0], y: imageSize[1]}),
+  ]);
   
   map.on("click", onClick);
   map.on("move", onMove);
@@ -74,11 +166,16 @@ addEventListener("load", () => {
   map.fitBounds(bounds);
   
   let params = new URLSearchParams(location.search);
-  
-  if(params.has("z"))
-    map.setZoom(+params.get("z"), {animate: false});
+  if(params.has("z")) {
+    let z = +params.get("z");
+    if(!isNaN(z))
+      map.setZoom(z, {animate: false});
+  }
   if(params.has("x") && params.has("y"))
     map.setView(xy2ll([+params.get("x"), +params.get("y")], {animate: false}));
   
   onMove();
+  
+  results = document.getElementById("results");
+  loadItems().catch(console.error);
 });

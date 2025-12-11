@@ -1,4 +1,4 @@
-html, body, #map {
+html, body {
   margin: 0;
   padding: 0;
   border: 0 none;
@@ -6,5 +6,62 @@ html, body, #map {
   width: 100%;
 }
 
+body {
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: row;
+}
+
+
 #map {
+	flex: 1;
+}
+#search {
+	width: 20em;
+	display: flex;
+	flex-direction: column;
+}
+
+#entry {
+	padding: 0.4em;
+	margin: 3px;
+}
+
+#results {
+	overflow: auto;
+	flex: 1;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#results a {
+	font-size: 1.2em;
+	display: block;
+	text-decoration: none;
+	padding: 0.2em 0.5em;
+	color: black;
+	border: 1px solid #999;
+	border-radius: 4px;
+	margin: 8px 4px;
+	box-shadow: 3px 1px 1px black;
+	scrollbar-gutter: stable;
+}
+#results a:focus-visible {
+	box-shadow: 3px 3px 3px black;
+}
+#results li:nth-child(even) a {
+	background-color: #EEE;
+}
+
+@media (max-aspect-ratio: 1) {
+	body {
+		flex-direction: column;
+	}
+	
+	#search {
+		width: auto;
+		height: 30%;
+		flex-direction: column-reverse;
+	}
 }
