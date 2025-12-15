@@ -36,16 +36,16 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="items"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
      units="px"
      inkscape:document-rotation="0"
-     inkscape:zoom="5.632"
-     inkscape:cx="1552.6183"
-     inkscape:cy="810.1951"
+     inkscape:zoom="0.29088889"
+     inkscape:cx="2250"
+     inkscape:cy="1128.5"
      inkscape:window-width="1920"
      inkscape:window-height="1026"
      inkscape:window-x="0"
@@ -58,498 +58,1283 @@
      id="items"
      inkscape:label="Features">
     <rect
-       style="fill:#3c3c3c;stroke:#3c3c3c;stroke-width:0.465665;stroke-miterlimit:10;paint-order:stroke fill markers;stop-color:#000000"
+       style="fill:#000000"
        id="rect1084"
-       width="111.614"
-       height="34.2715"
-       x="484.19601"
-       y="237.341"
+       width="113"
+       height="35"
+       x="483"
+       y="237"
        inkscape:label="Hailberg" />
     <rect
-       style="fill:#3c3c3c;stroke:#3c3c3c;stroke-width:0.465666;stroke-miterlimit:10;paint-order:stroke fill markers;stop-color:#000000"
+       style="fill:#000000"
        id="rect1086"
-       width="79.461502"
-       height="45.358501"
-       x="608.198"
-       y="267.34"
+       width="80"
+       height="45"
+       x="608"
+       y="267"
        inkscape:label="Here be Moose" />
     <rect
-       style="fill:#3c3c3c;stroke:#3c3c3c;stroke-width:0.465666;stroke-miterlimit:10;paint-order:stroke fill markers;stop-color:#000000"
+       style="fill:#000000"
        id="rect1088"
-       width="128.33701"
-       height="54.540298"
-       x="847.46301"
-       y="25.16"
+       width="129"
+       height="55"
+       x="847"
+       y="25"
        inkscape:label="North Polar Lair" />
     <rect
-       style="fill:#3c3c3c;stroke:#3c3c3c;stroke-width:1.76;stroke-miterlimit:10;paint-order:stroke fill markers;stop-color:#000000"
+       style="fill:#000000"
        id="rect1293"
-       width="174.28101"
-       height="33.056301"
-       x="1857.63"
-       y="10.8274"
+       width="169"
+       height="29"
+       x="1861"
+       y="12"
        inkscape:label="Mount Everhoof" />
     <rect
-       style="fill:#3c3c3c;stroke:#3c3c3c;stroke-width:1.76;stroke-miterlimit:10;paint-order:stroke fill markers;stop-color:#000000"
+       style="fill:#000000"
        id="rect1295"
-       width="147.04401"
-       height="23.3881"
-       x="1851.9399"
-       y="209.823"
+       width="146"
+       height="19"
+       x="1853"
+       y="213"
        inkscape:label="Crystal Empire" />
     <rect
-       style="fill:#3c3c3c;stroke:#3c3c3c;stroke-width:1.76;stroke-miterlimit:10;paint-order:stroke fill markers;stop-color:#000000"
+       style="fill:#000000"
        id="rect1297"
-       width="90.9505"
-       height="21.575001"
-       x="1799.76"
-       y="406.70999"
+       width="90"
+       height="16"
+       x="1800"
+       y="409"
        inkscape:label="Cloudsdale" />
     <rect
-       style="fill:#3c3c3c;stroke:#3c3c3c;stroke-width:1.76;stroke-miterlimit:10;paint-order:stroke fill markers;stop-color:#000000"
+       style="fill:#000000"
        id="rect1299"
-       width="88.8032"
-       height="22.620199"
-       x="1522.04"
-       y="358.76199"
+       width="84"
+       height="20"
+       x="1523"
+       y="359"
        inkscape:label="Statusburg" />
     <rect
-       style="fill:#3c3c3c;stroke:#3c3c3c;stroke-width:1.76;stroke-miterlimit:10;paint-order:stroke fill markers;stop-color:#000000"
+       style="fill:#000000"
        id="rect1301"
-       width="78.760902"
-       height="19.578699"
-       x="1352.29"
-       y="485.936"
+       width="78"
+       height="15"
+       x="1352"
+       y="486"
        inkscape:label="Vanhoover" />
     <rect
-       style="fill:#3c3c3c;stroke:#3c3c3c;stroke-width:1.76;stroke-miterlimit:10;paint-order:stroke fill markers;stop-color:#000000"
+       style="fill:#000000"
        id="rect1303"
-       width="59.389999"
-       height="31.298599"
-       x="1586.3101"
-       y="485.25699"
+       width="52"
+       height="28"
+       x="1589"
+       y="488"
        inkscape:label="Galloping Gorge" />
     <rect
-       style="fill:#3c3c3c;stroke:#3c3c3c;stroke-width:1.76;stroke-miterlimit:10;paint-order:stroke fill markers;stop-color:#000000"
+       style="fill:#000000"
        id="rect1305"
-       width="63.972099"
-       height="19.2882"
-       x="1427.96"
-       y="572.76099"
+       width="59"
+       height="14"
+       x="1430"
+       y="575"
        inkscape:label="Tall Tale" />
     <rect
-       style="fill:#3c3c3c;stroke:#3c3c3c;stroke-width:1.76;stroke-miterlimit:10;paint-order:stroke fill markers;stop-color:#000000"
+       style="fill:#000000"
        id="rect1307"
-       width="73.642601"
-       height="36.588299"
-       x="1280.58"
-       y="581.39502"
+       width="67"
+       height="34"
+       x="1284"
+       y="582"
        inkscape:label="Seaward Shoals" />
     <rect
-       style="fill:#3c3c3c;stroke:#3c3c3c;stroke-width:1.76;stroke-miterlimit:10;paint-order:stroke fill markers;stop-color:#000000"
+       style="fill:#000000"
        id="rect1309"
-       width="63.072399"
-       height="44.818699"
-       x="1086.3199"
-       y="629.74298"
+       width="56"
+       height="38"
+       x="1092"
+       y="634"
        inkscape:label="Sire's Hollow" />
     <rect
-       style="fill:#3c3c3c;stroke:#3c3c3c;stroke-width:3.15247;stroke-miterlimit:10;paint-order:stroke fill markers;stop-color:#000000"
+       style="fill:#000000"
        id="rect1307-3"
-       width="96.559372"
-       height="89.527115"
-       x="1123.1898"
-       y="453.24881"
+       width="92"
+       height="90"
+       x="1125"
+       y="452"
        inkscape:label="North Luna Ocean" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect867"
-       width="74.930428"
-       height="18.802061"
-       x="1218.1442"
-       y="863.16638"
+       width="70"
+       height="13"
+       x="1220"
+       y="865"
        inkscape:label="Tartarus" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect869"
-       width="74.698685"
-       height="41.607704"
-       x="1025.3942"
-       y="881.91089"
+       width="67"
+       height="36"
+       x="1029"
+       y="884"
        inkscape:label="Umberfoal entrance" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect871"
-       width="189.42387"
-       height="131.41661"
-       x="794.79602"
-       y="950.16846"
+       width="184"
+       height="118"
+       x="799"
+       y="959"
        inkscape:label="Jackalope Slopes" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect873"
-       width="122.86203"
-       height="26.824753"
-       x="951.09814"
-       y="1089.808"
+       width="116"
+       height="21"
+       x="956"
+       y="1093"
        inkscape:label="Redwood Range" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect875"
-       width="103.27068"
-       height="22.652229"
-       x="1084.2052"
-       y="1012.4443"
+       width="97"
+       height="21"
+       x="1088"
+       y="1015"
        inkscape:label="Hope Hollow" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect877"
-       width="99.187965"
-       height="25.877024"
-       x="980.14886"
-       y="1171.3009"
+       width="98"
+       height="24"
+       x="980"
+       y="1173"
        inkscape:label="Casaflanka" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect879"
-       width="129.11841"
-       height="32.22263"
-       x="966.19263"
-       y="1348.8733"
+       width="122"
+       height="26"
+       x="969"
+       y="1351"
        inkscape:label="Zebrabwe" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect881"
-       width="89.150047"
-       height="24.63155"
-       x="990.96338"
-       y="1577.2939"
+       width="84"
+       height="22"
+       x="993"
+       y="1578"
        inkscape:label="Djenneigh" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect883"
-       width="66.11821"
-       height="46.288952"
-       x="395.07755"
-       y="1463.5341"
+       width="61"
+       height="44"
+       x="398"
+       y="1463"
        inkscape:label="Here be Kirins" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect885"
-       width="87.360428"
-       height="24.059149"
-       x="479.16708"
-       y="1539.6555"
+       width="85"
+       height="19"
+       x="480"
+       y="1542"
        inkscape:label="Romore" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect887"
-       width="119.42023"
-       height="109.0455"
-       x="1223.9746"
-       y="1214.8829"
+       width="112"
+       height="105"
+       x="1229"
+       y="1215"
        inkscape:label="South Luna Ocean" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect889"
-       width="76.268448"
-       height="23.595507"
-       x="1471.4854"
-       y="1038.2125"
+       width="73"
+       height="21"
+       x="1473"
+       y="1040"
        inkscape:label="Somnambula" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect891"
-       width="44.07354"
-       height="18.048704"
-       x="1563.3025"
-       y="1038.3186"
+       width="40"
+       height="15"
+       x="1566"
+       y="1040"
        inkscape:label="Hill Top" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect893"
-       width="147.67059"
-       height="52.617908"
-       x="1438.824"
-       y="996.96716"
+       width="145"
+       height="45"
+       x="1440"
+       y="1002"
        inkscape:label="San Palomino desert" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect895"
-       width="75.714088"
-       height="18.484348"
-       x="1446.4896"
-       y="931.55719"
+       width="72"
+       height="15"
+       x="1448"
+       y="934"
        inkscape:label="Las Pegasus" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect897"
-       width="73.448776"
-       height="26.357668"
-       x="1530.7448"
-       y="933.86566"
+       width="68"
+       height="21"
+       x="1533"
+       y="936"
        inkscape:label="Applewood" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect899"
-       width="60.528835"
-       height="18.783899"
-       x="1661.2996"
-       y="988.45142"
+       width="57"
+       height="16"
+       x="1664"
+       y="990"
        inkscape:label="Rock farm" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect901"
-       width="72.535187"
-       height="88.640282"
-       x="1792.8444"
-       y="901.36792"
+       width="63"
+       height="78"
+       x="1799"
+       y="906"
        inkscape:label="Ghastly Gorge" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect903"
-       width="80.620285"
-       height="21.058344"
-       x="1849.3433"
-       y="1016.1912"
+       width="75"
+       height="19"
+       x="1853"
+       y="1017"
        inkscape:label="Appleloosa" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect905"
-       width="161.62662"
-       height="25.014185"
-       x="1830.9841"
-       y="1082.9646"
+       width="154"
+       height="21"
+       x="1836"
+       y="1086"
        inkscape:label="Macintosh Hills" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect907"
-       width="43.949928"
-       height="35.180027"
-       x="2038.5083"
-       y="886.01471"
+       width="40"
+       height="33"
+       x="2041"
+       y="887"
        inkscape:label="Dodge City" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect909"
-       width="35.180981"
-       height="13.340863"
-       x="1949.3293"
-       y="865.49072"
+       width="29"
+       height="9"
+       x="1953"
+       y="868"
        inkscape:label="Ruins" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect911"
-       width="89.537445"
-       height="23.371681"
-       x="1839.765"
-       y="800.22479"
+       width="86"
+       height="17"
+       x="1842"
+       y="803"
        inkscape:label="Everfree forest" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect913"
-       width="76.551407"
-       height="28.311134"
-       x="1829.4656"
-       y="711.04327"
+       width="72"
+       height="22"
+       x="1831"
+       y="714"
        inkscape:label="Ponyville" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10.5962;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect915"
-       width="89.488495"
-       height="22.462551"
-       x="1813.5649"
-       y="548.65955"
+       width="85"
+       height="18"
+       x="1816"
+       y="550"
        inkscape:label="Canterlot" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect919"
-       width="61.13282"
-       height="35.450317"
-       x="1986.0686"
-       y="473.07233"
+       width="58"
+       height="29"
+       x="1988"
+       y="477"
        inkscape:label="Neighagra Falls" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect921"
-       width="102.73494"
-       height="27.370426"
-       x="1603.5654"
-       y="148.58356"
+       width="99"
+       height="22"
+       x="1606"
+       y="151"
        inkscape:label="Yakyakistan" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect923"
-       width="127.36156"
-       height="30.129387"
-       x="2286.4399"
-       y="207.43073"
+       width="118"
+       height="23"
+       x="2291"
+       y="211"
        inkscape:label="Yaket Range" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect925"
-       width="68.566856"
-       height="40.307728"
-       x="2280.3064"
-       y="265.39325"
+       width="58"
+       height="37"
+       x="2286"
+       y="266"
        inkscape:label="Rainbow Falls" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect927"
-       width="163.86075"
-       height="63.869118"
-       x="2139.6499"
-       y="366.10428"
+       width="156"
+       height="50"
+       x="2145"
+       y="371"
        inkscape:label="Crystal Mountains" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect929"
-       width="65.676758"
-       height="15.929634"
-       x="2259.2222"
-       y="509.86014"
+       width="61"
+       height="10"
+       x="2262"
+       y="513"
        inkscape:label="Our Town" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect931"
-       width="71.262924"
-       height="42.366928"
-       x="2557.4609"
-       y="395.86203"
+       width="59"
+       height="32"
+       x="2567"
+       y="401"
        inkscape:label="Starlight's Cave" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect933"
-       width="107.49979"
-       height="24.928873"
-       x="2455.4666"
-       y="501.57626"
+       width="99"
+       height="16"
+       x="2461"
+       y="505"
        inkscape:label="Manehattan" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect935"
-       width="54.241287"
-       height="40.534191"
-       x="2581.0281"
-       y="523.29095"
+       width="48"
+       height="34"
+       x="2584"
+       y="526"
        inkscape:label="Griffish isles" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect937"
-       width="92.492378"
-       height="20.912691"
-       x="2671.2732"
-       y="422.00317"
+       width="85"
+       height="19"
+       x="2676"
+       y="423"
        inkscape:label="Trottingham" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect939"
-       width="67.462639"
-       height="23.393545"
-       x="2818.6663"
-       y="477.69315"
+       width="61"
+       height="14"
+       x="2823"
+       y="483"
        inkscape:label="Guto River" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect941"
-       width="69.828491"
-       height="42.040043"
-       x="2833.1235"
-       y="335.53665"
+       width="63"
+       height="36"
+       x="2837"
+       y="338"
        inkscape:label="Griffonstone Station" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect943"
-       width="165.50829"
-       height="64.122543"
-       x="2715.6228"
-       y="213.52231"
+       width="157"
+       height="54"
+       x="2721"
+       y="219"
        inkscape:label="Bugbear Territory" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect945"
-       width="74.231064"
-       height="158.16191"
-       x="2996.8279"
-       y="413.09521"
+       width="61"
+       height="147"
+       x="3005"
+       y="417"
        inkscape:label="The Himallamas" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect947"
-       width="161.57082"
-       height="44.152779"
-       x="3379.0605"
-       y="308.00037"
+       width="156"
+       height="34"
+       x="3381"
+       y="314"
        inkscape:label="Desolate Wild" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect949"
-       width="104.22044"
-       height="29.418102"
-       x="3217.738"
-       y="118.38197"
+       width="96"
+       height="21"
+       x="3223"
+       y="123"
        inkscape:label="Hall of Unity" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect951"
-       width="183.95163"
-       height="28.430901"
-       x="3184.0642"
-       y="45.435497"
+       width="177"
+       height="17"
+       x="3188"
+       y="49"
        inkscape:label="Mount Metazoa" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect953"
-       width="75.894859"
-       height="38.459705"
-       x="2031.7972"
-       y="741.77917"
+       width="70"
+       height="33"
+       x="2036"
+       y="744"
        inkscape:label="Rambling rock ridge" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect955"
-       width="57.018555"
-       height="30.341555"
-       x="2127.2332"
-       y="630.25287"
+       width="48"
+       height="27"
+       x="2133"
+       y="632"
        inkscape:label="Foal Mountain" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect957"
-       width="66.857162"
-       height="35.307957"
-       x="2235.0842"
-       y="592.41797"
+       width="57"
+       height="28"
+       x="2240"
+       y="596"
        inkscape:label="Hollow Shades" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect959"
-       width="101.99272"
-       height="29.041294"
-       x="2357.4961"
-       y="672.28363"
+       width="96"
+       height="22"
+       x="2361"
+       y="675"
        inkscape:label="Fillydelphia" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect961"
-       width="139.70752"
-       height="23.153505"
-       x="1410.1592"
-       y="671.64984"
+       width="134"
+       height="20"
+       x="1414"
+       y="673"
        inkscape:label="Smokey Mountains" />
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke markers fill;stop-color:#000000"
+       style="fill:#000000"
        id="rect963"
-       width="62.835987"
-       height="35.944538"
-       x="1561.5851"
-       y="803.71735"
+       width="56"
+       height="29"
+       x="1565"
+       y="806"
        inkscape:label="White Tail Woods" />
+    <rect
+       style="fill:#000000"
+       id="rect965"
+       width="157"
+       height="46"
+       x="1082"
+       y="91"
+       inkscape:label="Home of the Ampitheres &amp; Hydras" />
+    <rect
+       style="fill:#000000"
+       id="rect967"
+       width="172"
+       height="21"
+       x="1347"
+       y="80"
+       inkscape:label="Frozen North" />
+    <rect
+       style="fill:#000000"
+       id="rect969"
+       width="135"
+       height="23"
+       x="539"
+       y="611"
+       inkscape:label="Taiga Range" />
+    <rect
+       style="fill:#000000"
+       id="rect971"
+       width="75"
+       height="32"
+       x="797"
+       y="567"
+       inkscape:label="Sweet Acorn Orchard" />
+    <rect
+       style="fill:#000000"
+       id="rect973"
+       width="106"
+       height="49"
+       x="215"
+       y="598"
+       inkscape:label="Changeling Hive" />
+    <rect
+       style="fill:#000000"
+       id="rect975"
+       width="130"
+       height="23"
+       x="31"
+       y="400"
+       inkscape:label="Outpost Machina" />
+    <rect
+       style="fill:#000000"
+       id="rect977"
+       width="172"
+       height="26"
+       x="563"
+       y="823"
+       inkscape:label="Wandering Woods" />
+    <rect
+       style="fill:#000000"
+       id="rect979"
+       width="96"
+       height="25"
+       x="89"
+       y="1048"
+       inkscape:label="Hakoda" />
+    <rect
+       style="fill:#000000"
+       id="rect981"
+       width="96"
+       height="27"
+       x="99"
+       y="1210"
+       inkscape:label="Farasi" />
+    <rect
+       style="fill:#000000"
+       id="rect983"
+       width="77"
+       height="55"
+       x="209"
+       y="1237"
+       inkscape:label="Here be Abadi" />
+    <rect
+       style="fill:#000000"
+       id="rect985"
+       width="88"
+       height="27"
+       x="41"
+       y="1450"
+       inkscape:label="Zebrat" />
+    <rect
+       style="fill:#000000"
+       id="rect987"
+       width="81"
+       height="36"
+       x="377"
+       y="1691"
+       inkscape:label="Bladerock Pass" />
+    <rect
+       style="fill:#000000"
+       id="rect989"
+       width="118"
+       height="54"
+       x="260"
+       y="1730"
+       inkscape:label="Southwest Lair" />
+    <rect
+       style="fill:#000000"
+       id="rect991"
+       width="170"
+       height="50"
+       x="290"
+       y="1896"
+       inkscape:label="Home of the Drakes &amp; Lindwyrms" />
+    <rect
+       style="fill:#000000"
+       id="rect993"
+       width="300"
+       height="121"
+       x="149"
+       y="1993"
+       inkscape:label="Great Blizzard Barrier" />
+    <rect
+       style="fill:#000000"
+       id="rect995"
+       width="85"
+       height="44"
+       x="659"
+       y="1617"
+       inkscape:label="Cockatrice Lair" />
+    <rect
+       style="fill:#000000"
+       id="rect997"
+       width="202"
+       height="38"
+       x="681"
+       y="1770"
+       inkscape:label="Saddle Arabia" />
+    <rect
+       style="fill:#000000"
+       id="rect999"
+       width="77"
+       height="18"
+       x="929"
+       y="1749"
+       inkscape:label="Istanbull" />
+    <rect
+       style="fill:#000000"
+       id="rect1001"
+       width="131"
+       height="24"
+       x="892"
+       y="2072"
+       inkscape:label="Aashtethos" />
+    <rect
+       style="fill:#000000"
+       id="rect1003"
+       width="226"
+       height="69"
+       x="1071"
+       y="1917"
+       inkscape:label="Meditermareian Sea" />
+    <rect
+       style="fill:#000000"
+       id="rect1005"
+       width="83"
+       height="34"
+       x="1084"
+       y="1742"
+       inkscape:label="Greymane Bush" />
+    <rect
+       style="fill:#000000"
+       id="rect1007"
+       width="146"
+       height="37"
+       x="1251"
+       y="1395"
+       inkscape:label="Evenchain Isles" />
+    <rect
+       style="fill:#000000"
+       id="rect1009"
+       width="224"
+       height="85"
+       x="1645"
+       y="1918"
+       inkscape:label="Storm King's Realm (Hippogriff Colony)" />
+    <rect
+       style="fill:#000000"
+       id="rect1102"
+       width="62"
+       height="10"
+       x="2168"
+       y="1095"
+       inkscape:label="Canter Creek" />
+    <rect
+       style="fill:#000000"
+       id="rect1104"
+       width="83"
+       height="19"
+       x="2078"
+       y="1113"
+       inkscape:label="Badlands" />
+    <rect
+       style="fill:#000000"
+       id="rect1106"
+       width="128"
+       height="70"
+       x="2373"
+       y="1088"
+       inkscape:label="Hayseed Swamps" />
+    <rect
+       style="fill:#000000"
+       id="rect1108"
+       width="154"
+       height="25"
+       x="2194"
+       y="1290"
+       inkscape:label="Forbidden Jungle" />
+    <rect
+       style="fill:#000000"
+       id="rect1110"
+       width="53"
+       height="25"
+       x="2379"
+       y="1448"
+       inkscape:label="Black Hoof Bay" />
+    <rect
+       style="fill:#000000"
+       id="rect1112"
+       width="62"
+       height="16"
+       x="2259"
+       y="1492"
+       inkscape:label="Foaledo" />
+    <rect
+       style="fill:#000000"
+       id="rect1114"
+       width="179"
+       height="27"
+       x="1970"
+       y="1543"
+       inkscape:label="Bone Dry Desert" />
+    <rect
+       style="fill:#000000"
+       id="rect1116"
+       width="71"
+       height="19"
+       x="1993"
+       y="1621"
+       inkscape:label="Klugetown" />
+    <rect
+       style="fill:#000000"
+       id="rect1118"
+       width="78"
+       height="32"
+       x="1836"
+       y="1217"
+       inkscape:label="Arimaspi Territory" />
+    <rect
+       style="fill:#000000"
+       id="rect1120"
+       width="54"
+       height="18"
+       x="1683"
+       y="1304"
+       inkscape:label="Irwind" />
+    <rect
+       style="fill:#000000"
+       id="rect1132"
+       width="62"
+       height="36"
+       x="1503"
+       y="1649"
+       inkscape:label="Nightmare Cliffs" />
+    <rect
+       style="fill:#000000"
+       id="rect1122"
+       width="70"
+       height="13"
+       x="1836"
+       y="1371"
+       inkscape:label="The Hunters" />
+    <rect
+       style="fill:#000000"
+       id="rect1124"
+       width="68"
+       height="11"
+       x="1612"
+       y="1524"
+       inkscape:label="The Crawlers" />
+    <rect
+       style="fill:#000000"
+       id="rect1126"
+       width="78"
+       height="13"
+       x="1484"
+       y="1550"
+       inkscape:label="The Guardians" />
+    <rect
+       style="fill:#000000"
+       id="rect1128"
+       width="69"
+       height="12"
+       x="1676"
+       y="1572"
+       inkscape:label="The Runners" />
+    <rect
+       style="fill:#000000"
+       id="rect1130"
+       width="66"
+       height="10.000024"
+       x="1634"
+       y="1617"
+       inkscape:label="The Climbers" />
+    <rect
+       style="fill:#000000"
+       id="rect1134"
+       width="55"
+       height="9"
+       x="1769"
+       y="1754"
+       inkscape:label="The Walkers" />
+    <rect
+       style="fill:#000000"
+       id="rect1136"
+       width="76"
+       height="16"
+       x="1743"
+       y="1615"
+       inkscape:label="The Defenders" />
+    <rect
+       style="fill:#000000"
+       id="rect1138"
+       width="76"
+       height="11"
+       x="1803"
+       y="1669"
+       inkscape:label="New Haven" />
+    <rect
+       style="fill:#000000"
+       id="rect1140"
+       width="132"
+       height="15"
+       x="1982"
+       y="1780"
+       inkscape:label="South Central Peak" />
+    <rect
+       style="fill:#000000"
+       id="rect1142"
+       width="96"
+       height="15"
+       x="1901"
+       y="1835"
+       inkscape:label="Wicked Woods" />
+    <rect
+       style="fill:#000000"
+       id="rect1144"
+       width="123"
+       height="13"
+       x="2108"
+       y="1839"
+       inkscape:label="Pine Needle Barrens" />
+    <rect
+       style="fill:#000000"
+       id="rect1146"
+       width="116"
+       height="26"
+       x="2135"
+       y="1989"
+       inkscape:label="Basalt Beaches" />
+    <rect
+       style="fill:#000000"
+       id="rect1148"
+       width="92"
+       height="13"
+       x="2493"
+       y="1934"
+       inkscape:label="Mount Aris" />
+    <rect
+       style="fill:#000000"
+       id="rect1150"
+       width="80"
+       height="15"
+       x="2406"
+       y="1792"
+       inkscape:label="Southstock" />
+    <rect
+       style="fill:#000000"
+       id="rect1152"
+       width="57"
+       height="28"
+       x="2391"
+       y="1623"
+       inkscape:label="Black Skull Island" />
+    <rect
+       style="fill:#000000"
+       id="rect1154"
+       width="113"
+       height="66"
+       x="2567"
+       y="927"
+       inkscape:label="Celestial Sea" />
+    <rect
+       style="fill:#000000"
+       id="rect1156"
+       width="62"
+       height="31"
+       x="2394"
+       y="911"
+       inkscape:label="Horseshoe Bay" />
+    <rect
+       style="fill:#000000"
+       id="rect1158"
+       width="79"
+       height="16"
+       x="2424"
+       y="792"
+       inkscape:label="Baltimare" />
+    <rect
+       style="fill:#000000"
+       id="rect1160"
+       width="178"
+       height="22"
+       x="4248"
+       y="75"
+       inkscape:label="Great Ice Plateau" />
+    <rect
+       style="fill:#000000"
+       id="rect1162"
+       width="108"
+       height="22"
+       x="4077"
+       y="237"
+       inkscape:label="Outpost Alpha" />
+    <rect
+       style="fill:#000000"
+       id="rect1164"
+       width="80"
+       height="24"
+       x="4091"
+       y="383"
+       inkscape:label="Thrace" />
+    <rect
+       style="fill:#000000"
+       id="rect1166"
+       width="69"
+       height="18"
+       x="3685"
+       y="270"
+       inkscape:label="Tundra" />
+    <rect
+       style="fill:#000000"
+       id="rect1168"
+       width="92"
+       height="48"
+       x="3579"
+       y="332"
+       inkscape:label="Here be Reindeer" />
+    <rect
+       style="fill:#000000"
+       id="rect1170"
+       width="93"
+       height="15"
+       x="3677"
+       y="482"
+       inkscape:label="Ho Chi Mane" />
+    <rect
+       style="fill:#000000"
+       id="rect1172"
+       width="61"
+       height="15"
+       x="3923"
+       y="649"
+       inkscape:label="Kouma" />
+    <rect
+       style="fill:#000000"
+       id="rect1174"
+       width="117"
+       height="46"
+       x="3306"
+       y="553"
+       inkscape:label="Graymourne (Ruins)" />
+    <rect
+       style="fill:#000000"
+       id="rect1176"
+       width="76"
+       height="14"
+       x="3200"
+       y="657"
+       inkscape:label="Cobblerock" />
+    <rect
+       style="fill:#000000"
+       id="rect1178"
+       width="115"
+       height="20"
+       x="3479"
+       y="656"
+       inkscape:label="Banyan Timbers" />
+    <rect
+       style="fill:#000000"
+       id="rect1180"
+       width="112"
+       height="48"
+       x="3122"
+       y="716"
+       inkscape:label="Sugar Maple Grove" />
+    <rect
+       style="fill:#000000"
+       id="rect1182"
+       width="104"
+       height="24"
+       x="2798"
+       y="746"
+       inkscape:label="Griffonstone" />
+    <rect
+       style="fill:#000000"
+       id="rect1184"
+       width="57"
+       height="18"
+       x="3330"
+       y="760"
+       inkscape:label="Aster Rill" />
+    <rect
+       style="fill:#000000"
+       id="rect1186"
+       width="78"
+       height="22"
+       x="3589"
+       y="758"
+       inkscape:label="Shanghay" />
+    <rect
+       style="fill:#000000"
+       id="rect1188"
+       width="100"
+       height="13"
+       x="2926"
+       y="1031"
+       inkscape:label="Eastern Lair" />
+    <rect
+       style="fill:#000000"
+       id="rect1190"
+       width="133"
+       height="36"
+       x="3130"
+       y="961"
+       inkscape:label="Stampede Stream" />
+    <rect
+       style="fill:#000000"
+       id="rect1192"
+       width="94"
+       height="21"
+       x="3325"
+       y="920"
+       inkscape:label="Trotsylvania" />
+    <rect
+       style="fill:#000000"
+       id="rect1194"
+       width="77"
+       height="32"
+       x="3561"
+       y="1005"
+       inkscape:label="Peryton Peak" />
+    <rect
+       style="fill:#000000"
+       id="rect1196"
+       width="107"
+       height="20"
+       x="3321"
+       y="1085"
+       inkscape:label="Serpent's Creek" />
+    <rect
+       style="fill:#000000"
+       id="rect1198"
+       width="173"
+       height="46"
+       x="2902"
+       y="1128"
+       inkscape:label="Home of the Dragons &amp; Wyverns" />
+    <rect
+       style="fill:#000000"
+       id="rect1762"
+       width="110"
+       height="53"
+       x="3026"
+       y="1250"
+       inkscape:label="Halflinger Grove" />
+    <rect
+       style="fill:#000000"
+       id="rect1764"
+       width="93"
+       height="13"
+       x="2911"
+       y="1361"
+       inkscape:label="Kirin Grove" />
+    <rect
+       style="fill:#000000"
+       id="rect1766"
+       width="94"
+       height="61"
+       x="3066"
+       y="1456"
+       inkscape:label="Here be kelpies" />
+    <rect
+       style="fill:#000000"
+       id="rect1768"
+       width="60"
+       height="47"
+       x="2803"
+       y="1569"
+       inkscape:label="Lost Lagoon" />
+    <rect
+       style="fill:#000000"
+       id="rect1770"
+       width="148"
+       height="80"
+       x="2811"
+       y="1741"
+       inkscape:label="Neighdian Deep" />
+    <rect
+       style="fill:#000000"
+       id="rect1772"
+       width="136"
+       height="22"
+       x="3069"
+       y="1680"
+       inkscape:label="Shire Lanka" />
+    <rect
+       style="fill:#000000"
+       id="rect1774"
+       width="79"
+       height="22"
+       x="3127"
+       y="1859"
+       inkscape:label="Hoarfrost" />
+    <rect
+       style="fill:#000000"
+       id="rect1776"
+       width="93"
+       height="17"
+       x="3256"
+       y="1832"
+       inkscape:label="Colombuck" />
+    <rect
+       style="fill:#000000"
+       id="rect1778"
+       width="92"
+       height="46"
+       x="3292"
+       y="1264"
+       inkscape:label="Trotting Terrains" />
+    <rect
+       style="fill:#000000"
+       id="rect1780"
+       width="125"
+       height="22"
+       x="3589"
+       y="1350"
+       inkscape:label="Litterbox Ridge" />
+    <rect
+       style="fill:#000000"
+       id="rect1782"
+       width="88"
+       height="19"
+       x="3564"
+       y="1476"
+       inkscape:label="Panthera" />
+    <rect
+       style="fill:#000000"
+       id="rect1784"
+       width="51"
+       height="19"
+       x="3421"
+       y="1549"
+       inkscape:label="Henry" />
+    <rect
+       style="fill:#000000"
+       id="rect1786"
+       width="124"
+       height="35"
+       x="3412"
+       y="1668"
+       inkscape:label="Abyssinia" />
+    <rect
+       style="fill:#000000"
+       id="rect1788"
+       width="89"
+       height="22"
+       x="3607"
+       y="1713"
+       inkscape:label="Tabbytown" />
+    <rect
+       style="fill:#000000"
+       id="rect1790"
+       width="40"
+       height="14"
+       x="3724"
+       y="1619"
+       inkscape:label="Siam" />
+    <rect
+       style="fill:#000000"
+       id="rect1792"
+       width="95"
+       height="23"
+       x="3453"
+       y="2183"
+       inkscape:label="Aquastria" />
+    <rect
+       style="fill:#000000"
+       id="rect1794"
+       width="87"
+       height="45"
+       x="3415"
+       y="2210"
+       inkscape:label="The Sealion Kingdom" />
+    <rect
+       style="fill:#000000"
+       id="rect1796"
+       width="70"
+       height="16"
+       x="3565"
+       y="1964"
+       inkscape:label="Catskills" />
+    <rect
+       style="fill:#000000"
+       id="rect1798"
+       width="70"
+       height="16"
+       x="3688"
+       y="1864"
+       inkscape:label="Ornithia" />
+    <rect
+       style="fill:#000000"
+       id="rect1800"
+       width="83"
+       height="26"
+       x="3868"
+       y="1767"
+       inkscape:label="Sydneigh" />
+    <rect
+       style="fill:#000000"
+       id="rect1802"
+       width="98"
+       height="30"
+       x="3932"
+       y="1505"
+       inkscape:label="Ng'amia" />
+    <rect
+       style="fill:#000000"
+       id="rect1804"
+       width="116"
+       height="29"
+       x="3810"
+       y="1375"
+       inkscape:label="Fillyppines" />
+    <rect
+       style="fill:#000000"
+       id="rect1806"
+       width="66"
+       height="16"
+       x="3827"
+       y="1258"
+       inkscape:label="Maneila" />
+    <rect
+       style="fill:#000000"
+       id="rect1808"
+       width="120"
+       height="24"
+       x="4003"
+       y="1027"
+       inkscape:label="Riverlands" />
+    <rect
+       style="fill:#000000"
+       id="rect1810"
+       width="82"
+       height="21"
+       x="3938"
+       y="784"
+       inkscape:label="Revelry Isle" />
+    <rect
+       style="fill:#000000"
+       id="rect1812"
+       width="155"
+       height="70"
+       x="4277"
+       y="1171"
+       inkscape:label="Pranceific Ocean" />
   </g>
   <g
      inkscape:label="Map"
      id="layer1"
-     style="opacity:0.5">
+     style="opacity:0.5"
+     sodipodi:insensitive="true">
     <image
        xlink:href="2743903.png"
        id="image1052"
