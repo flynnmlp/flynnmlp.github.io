@@ -2,7 +2,8 @@
 // ex:ts=2:et:
 
 // API url: https://derpibooru.org/api/v1/json/images/2743903
-var imageSource = "https://derpicdn.net/img/view/2021/11/13/2743903.png";
+//var imageSource = "https://derpicdn.net/img/view/2021/11/13/2743903.png";
+var imageSource = "2743903.png";
 var imageSize = [4500, 2257];
 
 var bounds = [[0, 0], [imageSize[1], imageSize[0]]];
