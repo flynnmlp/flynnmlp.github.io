@@ -76,7 +76,7 @@ form:has(#results.empty) #result_header label {
 	
 	#search {
 		width: auto;
-		height: 30%;
+		height: max(30%, 12em);
 		flex-direction: column-reverse;
 	}
 }
