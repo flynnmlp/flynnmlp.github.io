@@ -103,7 +103,7 @@ class Location {
     map.fitBounds(L.latLngBounds(
       xy2ll([this.x, this.y]),
       xy2ll([this.x + this.w, this.y + this.h]),
-    ), {maxZoom: 1.5});
+    ).pad(0.2), {maxZoom: 1.5});
     
     event.preventDefault();
     return false;
