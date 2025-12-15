@@ -20,6 +20,13 @@
 <div id="map"></div>
 <form id="search">
 	<input name="entry" id="entry" type="search" placeholder="Search location…" autofocus autocomplete="on">
+	<p id="result_header">
+		<span id="result_count">Loading...</span>
+		<button id="result_clear" type="button">Clear</button>
+		<label>
+			<input type="checkbox" id="fuzzy_search" checked> fuzzy search
+		</label>
+	</p>
 	<ul id="results">
 	</ul>
 </form>

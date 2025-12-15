@@ -36,6 +36,17 @@ body {
 	list-style: none;
 }
 
+#result_header {
+	font-size: 0.9em;
+	margin: 0 4px;
+	line-height: 1.8em;
+}
+
+form:has(#results.empty) #result_header button,
+form:has(#results.empty) #result_header label {
+  visibility: collapse;
+}
+
 #results li {
 	margin: 8px 4px;
 	font-size: 1.2em;

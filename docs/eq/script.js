@@ -9,6 +9,7 @@ var bounds = [[0, 0], [imageSize[1], imageSize[0]]];
 
 var map;
 var entry;
+var checkboxFuzzy;
 var results;
 var locations;
 var permalinkTimer;
@@ -130,32 +131,52 @@ async function loadItems() {
   
   entry = document.getElementById("entry");
   entry.addEventListener("input", filterLocations);
+  document.getElementById("result_clear").addEventListener("click", e => {
+    entry.value = "";
+    filterLocations();
+    entry.focus();
+  });
+  checkboxFuzzy = document.getElementById("fuzzy_search");
+  checkboxFuzzy.addEventListener("change", filterLocations);
   filterLocations();
+  
+  document.forms[0].addEventListener("submit", e => {
+    e.preventDefault();
+    return false;
+  });
 }
+
+String.prototype.fuzzy = function (s) {
+    var hay = this.toLowerCase(), i = 0, n = -1, l;
+    s = s.toLowerCase();
+    for (; l = s[i++] ;) if (!~(n = hay.indexOf(l, n + 1))) return false;
+    return true;
+};
 
 function filterLocations() {
   let searchText = entry.value.toLowerCase();
   results.innerHTML = "";
   
+  let match = checkboxFuzzy.checked ?
+    hay => hay.fuzzy(searchText) :
+    hay => hay.toLowerCase().includes(searchText);
+  
   for(let location of locations) {
-    if(location.label.toLowerCase().includes(searchText))
+    if(match(location.label))
       results.appendChild(location.element);
   }
   
-  let li = document.createElement("li");
-  if(searchText) {
-    li.textContent = `${results.childElementCount} result(s) `;
-    let button = li.appendChild(document.createElement("button"));
-    button.textContent = "Clear";
-    button.addEventListener("click", e => {
-      entry.value = "";
-      filterLocations();
-    });
-  } else {
-    li.textContent = `${results.childElementCount} locations`;
-  }
+  let num_results = results.childElementCount.toString();
+  while(num_results.length < locations.length.toString().length)
+    num_results = "\u2007" + num_results;
   
-  results.insertBefore(li, results.firstChild);
+  if(searchText) {
+    result_count.textContent = `${num_results} result(s)`;
+    results.classList.remove("empty");
+  } else {
+    result_count.textContent = `${num_results} locations`;
+    results.classList.add("empty");
+  }
 }
 
 addEventListener("load", () => {
