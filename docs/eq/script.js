@@ -105,6 +105,7 @@ class Location {
       xy2ll([this.x + this.w, this.y + this.h]),
     ).pad(0.2), {maxZoom: 1.5});
     
+    updatePermalink();
     event.preventDefault();
     return false;
   }
