@@ -203,13 +203,22 @@ addEventListener("load", () => {
   map.fitBounds(bounds);
   
   let params = new URLSearchParams(location.search);
+  let z = undefined;
   if(params.has("z")) {
-    let z = +params.get("z");
-    if(!isNaN(z))
+    z = +params.get("z");
+    if(isNaN(z))
+      z = undefined;
+  }
+  if(params.has("x") && params.has("y")) {
+    map.setView(
+      xy2ll([+params.get("x"), +params.get("y")]),
+      z === undefined ? 0 : z,
+      {animate: false},
+    );
+  } else {
+    if(z !== undefined)
       map.setZoom(z, {animate: false});
   }
-  if(params.has("x") && params.has("y"))
-    map.setView(xy2ll([+params.get("x"), +params.get("y")], {animate: false}));
   
   onMove();
   
