@@ -13,6 +13,7 @@ var checkboxFuzzy;
 var results;
 var locations;
 var permalinkTimer;
+var upDownElements = [];
 
 function ll2xy(latlng) {
   let p = map.project(latlng, 0);
@@ -111,6 +112,37 @@ class Location {
   }
 }
 
+function handleUpDown(e) {
+  if(e.key == "Escape") {
+    entry.focus();
+    entry.select();
+    e.preventDefault();
+    return false;
+  }
+  
+  if(e.key != "ArrowUp" && e.key != "ArrowDown")
+    return;
+  
+  let index = upDownElements.indexOf(e.target);
+  if(index < 0)
+    return;
+  
+  if(e.key == "ArrowDown") {
+    index++;
+    if(index >= upDownElements.length)
+      index = 0;
+  } else {
+    index--;
+    if(index < 0)
+      index = upDownElements.length - 1;
+  }
+  
+  let target = upDownElements[index];
+  target.focus();
+  e.preventDefault();
+  return false;
+}
+
 async function loadItems() {
   const response = await fetch("locations.svg");
   if (!response.ok)
@@ -145,6 +177,8 @@ async function loadItems() {
     e.preventDefault();
     return false;
   });
+  
+  document.addEventListener("keydown", handleUpDown, {capture: true});
 }
 
 String.prototype.fuzzy = function (s) {
@@ -157,14 +191,17 @@ String.prototype.fuzzy = function (s) {
 function filterLocations() {
   let searchText = entry.value.toLowerCase();
   results.innerHTML = "";
+  upDownElements = [entry];
   
   let match = checkboxFuzzy.checked ?
     hay => hay.fuzzy(searchText) :
     hay => hay.toLowerCase().includes(searchText);
   
   for(let location of locations) {
-    if(match(location.label))
+    if(match(location.label)) {
       results.appendChild(location.element);
+      upDownElements.push(location.link);
+    }
   }
   
   let num_results = results.childElementCount.toString();
